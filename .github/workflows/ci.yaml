@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - workflow/*
     tags:
       - release-*
     paths-ignore:
